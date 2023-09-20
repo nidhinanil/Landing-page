@@ -1,0 +1,46 @@
+
+
+body
+ {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+ }
+
+.header 
+{
+display: flex;
+position: fixed;
+align-items: center;
+justify-content: space-around;
+
+color: white;
+left: 0;
+right: 0;
+top: 0;
+padding: 8px;
+background:#1f2937;
+}
+
+.footer
+ {
+  color: #eee;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#1f2937;
+}
+
+ul 
+{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}  
